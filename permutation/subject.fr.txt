@@ -1,0 +1,38 @@
+Sujet du programme `permutations` (version française)
+-----------------------------------------------------
+
+Fichiers attendus :
+    *.c
+    *.h
+
+Fonctions autorisées :
+    puts, malloc, calloc, realloc, free, write
+
+Objectif :
+    Écris un programme qui affiche toutes les permutations possibles d’une chaîne de caractères
+    passée en argument.
+
+Ordre de tri :
+    Les permutations doivent être affichées en ordre alphabétique.
+
+Remarques importantes :
+    - Le programme ne sera jamais testé avec des chaînes contenant des lettres dupliquées.
+      Par exemple : "abccd" ne sera jamais utilisé.
+    - Tu peux donc supposer que chaque caractère de la chaîne d’entrée est unique.
+
+Exemples d'exécution :
+
+    $> ./permutations a | cat -e
+    a$
+
+    $> ./permutations ab | cat -e
+    ab$
+    ba$
+
+    $> ./permutations abc | cat -e
+    abc$
+    acb$
+    bac$
+    bca$
+    cab$
+    cba$
